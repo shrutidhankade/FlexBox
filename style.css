@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+#parent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-image: url(//media.istockphoto.com/id/492905865/photo/bloody-wall-scene.webp?b=1&s=170667a&w=0&k=20&c=O2RUs04hMmOm3hETveavu3WQrqUG-il42Ueh0OtMdZo=);  
+  /* background-image: url(https://media.istockphoto.com/id/925811720/photo/bloody-grunge-abstract-texture-background.webp?b=1&s=170667a&w=0&k=20&c=udfQhWVw195wwvff20NkAGJNoJiqs-zbZzhMGzzX4AQ=); */
+  /* background-image: url(https://media.istockphoto.com/id/1157181209/photo/dark-red-grungy-background-with-spotlight-background.webp?b=1&s=170667a&w=0&k=20&c=v-R354zBD5aMF-SQCLZXNyugioPuMWZU13Av4IhJDmM=);  */
+  
+    
+
+}
+#child1{
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: aquamarine;
+     /* background-image: url(https://images.unsplash.com/photo-1567263361507-83f755d9fa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9ycm9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);  */
+     background-image: url(https://media.istockphoto.com/id/486905546/photo/zombie-girl.jpg?s=612x612&w=0&k=20&c=iZvCOQTsTWwqRGMXr5MJqsXZ751F13qRLYS1C17si7Y=);
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#child2{
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: rgb(176, 127, 255);
+    background-image: url(https://images.unsplash.com/photo-1613051884057-d9130a00a5f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=391&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#child3{
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: rgb(26, 26, 26);
+    background-image: url(https://images.unsplash.com/photo-1537281000-028bad8dc58d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9ycm9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#child4{
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: rgb(120, 69, 69);
+    background-image: url(https://images.unsplash.com/photo-1611787640592-ebf78080d96e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGhvcnJvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    scale: 1;
+
+}
+h1{
+    position: absolute;
+    top: 10%;
+    font-size: 60px;
+    font-family: death spirit;
+
+}
+#child1:hover{
+    scale:1.5;
+    box-shadow: 0 0 5px black, 0 0 25px  rgb(137, 44, 44); 
+    transition: all ease 1s;
+}
+#child2:hover{
+    scale:1.5;
+    box-shadow: 0 0 5px black, 0 0 25px  rgb(137, 44, 44); 
+    transition: all ease 1s;
+}
+#child3:hover{
+    scale:1.5;
+    box-shadow: 0 0 5px black, 0 0 25px rgb(137, 44, 44) ;
+  
+    transition: all ease 1s;
+
+}
+#child4:hover{
+    scale:1.5;
+     box-shadow: 0 0 5px black, 0 0 25px  rgb(137, 44, 44); 
+     transition: all ease 1s;
+}
+h1:hover{
+    scale: 1.7;
+    /* background-color: red; */
+    background: linear-gradient(rgb(39, 36, 36),rgb(137, 44, 44));
+    transition: all ease 1s;
+}
+button{
+    font-size: 40px;
+    position: absolute;
+    bottom: 10%;
+    padding: 2px 15px;
+    font-family:death spirit ;
+    background-color: transparent;
+    border-radius: 10%;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+button:hover{
+    scale:2;
+    /* box-shadow: 0 0 5px red, 0 0 25px red;  */
+    /* background-color: brown; */
+    font-weight: 500;
+    background: linear-gradient(rgb(39, 36, 36),rgb(137, 44, 44));
+    transition: all ease 1s;
+}
+
